@@ -1,0 +1,38 @@
+[
+  {
+    "Title": "Open Apes NFT",
+    "Image": "./Images/bg1.jpg",
+    "price": 1,
+    "description": "this is a description of this nft"
+  },
+  {
+    "Title": "Open Apes NFT",
+    "Image": "./Images/bg1.jpg",
+    "price": 1,
+    "description": "this is a description of this nft"
+  },
+  {
+    "Title": "Open Apes NFT",
+    "Image": "../../../Images/bg1.jpg",
+    "price": 1,
+    "description": "this is a description of this nft"
+  },
+  {
+    "Title": "Open Apes NFT",
+    "Image": "./Images/bg1.jpg",
+    "price": 1,
+    "description": "this is a description of this nft"
+  },
+  {
+    "Title": "Open Apes NFT",
+    "Image": "./Images/bg1.jpg",
+    "price": 1,
+    "description": "this is a description of this nft"
+  },
+  {
+    "Title": "Open Apes NFT",
+    "Image": "./Images/bg1.jpg",
+    "price": 1,
+    "description": "this is a description of this nft"
+  }
+]

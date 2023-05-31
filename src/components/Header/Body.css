@@ -1,0 +1,61 @@
+/* Body File CSS */
+.Main__Body {
+  display: block;
+}
+
+/* Banner File CSS (inside to Body File */
+
+.Header__Banner {
+  /* background: linear-gradient(rgba(148, 144, 144, 0.3), rgba(36, 34, 34, 0.75)),
+    url("../../Images/bg1.jpg"); */
+  /* height: 93vh; */
+  /* background-size: cover; */
+}
+
+.Header__Banner .content {
+  width: 100%;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 50%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+.content h1 {
+  font-size: 60px;
+  margin-top: 80px;
+}
+.content p {
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+.content button {
+  width: 200px;
+  color: rgb(255, 255, 255);
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #ff004f;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+}
+span {
+  background: #ff004f;
+  height: 100%;
+  width: 0;
+  position: absolute;
+  border-radius: 25px;
+  z-index: -1;
+  left: 0;
+  bottom: 0;
+  transition: 0.6s;
+}
+.content button:hover span {
+  width: 100%;
+}
+.content button:hover {
+  border: none;
+}

@@ -1,0 +1,80 @@
+.Header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(31, 181, 240, 0.2), rgba(103, 55, 214, 0.3)),
+    url("../../Images/bg5.jpg");
+  background-size: cover;
+}
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 13px 0;
+  font-size: 16px;
+  background-color: rgba(148, 144, 144, 0.2);
+  position: fixed;
+}
+.NavBar__Logo {
+  color: white;
+  font-weight: bolder;
+  margin-left: 30px;
+}
+.NavBar .NavBar__Search input {
+  border-radius: 25px;
+  padding: 5px 20px;
+  width: 250px;
+  margin-left: 80%;
+  outline: none;
+  border: none;
+}
+.NavBar__Links {
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NavBar__Button {
+  margin-left: 60px;
+}
+.NavBar__Links ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.NavBar__Links ul li {
+  padding-left: 30px;
+}
+.NavBar__Links ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  position: relative;
+}
+.NavBar__Links ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #ff004f;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+.NavBar__Links ul li a:hover::after {
+  width: 100%;
+  /* text-decoration: none;
+  color: rgb(31, 119, 225); */
+}
+.NavBar__Links ul li button {
+  padding: 5px 8px;
+  font-size: 18px;
+  border: none;
+  /* font-weight: 900; */
+  /* transition: transform 0.5s ease-in-out; */
+}
+.NavBar__Links ul li button:hover {
+  background-color: #ff004f;
+  color: white;
+}
